@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left , .middle , .right{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    background-color: gray;
+}
+.middle{
+    background-color: green;
+}
+.right{
+    background-color: yellow;
+}
